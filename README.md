@@ -38,5 +38,3 @@ The default Playwright config starts a local server for the built site and runs 
 
 ## Deployed Site
 
-https://lukaskund.github.io/temp/
-# demo_repo
