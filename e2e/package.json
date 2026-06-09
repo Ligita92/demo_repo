@@ -2,6 +2,9 @@
   "name": "playwright-e2e-framework",
   "version": "1.0.0",
   "description": "Playwright E2E test framework with POM and fixtures",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "test": "playwright test --pass-with-no-tests",
     "test:headed": "playwright test --pass-with-no-tests --headed",
@@ -16,7 +19,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.59.1",
-    "@types/node": "^20.0.0",
+    "@types/node": "^24.0.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
     "dotenv": "^17.4.0",
