@@ -44,7 +44,7 @@ test.describe('PawShop cart', () => {
     await pom.cartPage.openCart();
     await pom.cartPage.expectEmptyCartVisible();
     await expect(pom.cartPage.emptyCartState, 'Empty cart should explain that no products are present.').toContainText(
-      'Your basket is empty'
+      'Your cart is empty'
     );
   });
 });
